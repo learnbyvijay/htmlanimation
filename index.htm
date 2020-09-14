@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn by vijay</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<style>
+body{
+	
+	background-color:black;
+}
+.main h1{
+	
+	width:100px;
+	height:40px;
+	color:red;
+	display:inline;
+	padding:30px 30px 20px 250px;
+	font-size:50px;
+}
+.main ul{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	display:flex;
+	
+}
+
+.main ul li{
+	list-style:none;
+	width:40px;
+	height:40px;
+	background-color:black;
+	padding:20px;
+	margin:5px;
+	border-radius:50px;
+	animation:vijay 1.6s linear infinite;
+}
+@keyframes vijay{
+	0%, 40% ,100%{
+		transform:scale(0.5);
+		transform:translateY(100px);
+		
+
+	}
+	20%{
+		transform:scale(1);
+		transform:translateY(50pxs);
+		
+	}
+	
+}
+ul li:nth-child(1){
+	animation-delay:-1.4s;
+	background-color:yellow;
+	box-shadow:0 0 50px yellow;
+}
+ul li:nth-child(2){
+	animation-delay:-1.2s;
+	background-color:red;
+	box-shadow:0 0 50px red;
+}
+ul li:nth-child(3){
+	animation-delay:-1s;
+	background-color:green;
+	box-shadow:0 0 50px green;
+}
+ul li:nth-child(4){
+	animation-delay:1.2s;
+	background-color:orange;
+	box-shadow:0 0 50px orange;
+}
+ul li:nth-child(5){
+	animation-delay:1.4s;
+	background-color:pink;
+	box-shadow:0 0 50px pink;
+}
+ul li:nth-child(6){
+	animation-delay:1.8s;
+	background-color:purple;
+	box-shadow:0 0 50px purple;
+}
+ul li:nth-child(7){
+	animation-delay:2s;
+	background-color:white;
+	box-shadow:0 0 50px white;
+}
+</style>
+<body>
+	<div class="main">
+		<h1>Welcome to <mark>learn by vijay</mark> youtube channel</h1>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+	</div>
+</body>
+</html>
